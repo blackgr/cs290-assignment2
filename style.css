@@ -1,0 +1,27 @@
+/*Make table column non bold and italic*/
+.font{
+	font-weight:normal;
+	font-style:italic;
+}
+
+/*Make row red,blue*/
+.red{
+	color:red;
+}
+.blue{
+	color:blue;
+}
+
+/*Make backgrounds green and blue*/
+tr:nth-child(2){
+	background-color:#66FF66;
+}
+tr:nth-child(3){
+	background-color:#66A3E0;
+}
+tr:nth-child(4){
+	background-color:#66FF66;
+}
+tr:nth-child(5){
+	background-color:#66A3E0;
+}
