@@ -2,6 +2,7 @@
 .font{
 	font-weight:normal;
 	font-style:italic;
+	color:black;
 }
 
 /*Make row red,blue*/
@@ -24,4 +25,7 @@ tr:nth-child(4){
 }
 tr:nth-child(5){
 	background-color:#66A3E0;
+}
+dt:hover+dd{
+	background-color:purple;
 }
