@@ -1,16 +1,18 @@
 /*Make table column non bold and italic*/
-.font{
+th:nth-child(1){
 	font-weight:normal;
 	font-style:italic;
-	color:black;
 }
 
 /*Make row red,blue*/
-.red{
+td:nth-child(2){
 	color:red;
 }
-.blue{
+td:nth-child(4){
 	color:blue;
+}
+td[colspan]{
+	color:black;
 }
 
 /*Make backgrounds green and blue*/
@@ -32,7 +34,8 @@ dt:hover+dd{
 	background-color:purple;
 }
 
-.outer{
+/* Outer Div content */
+.outer-content{
 	height:60px;
 	width: 75%;
 	left: 0px;
@@ -40,7 +43,8 @@ dt:hover+dd{
 	margin:20px;
 }
 
-.inner{
+/* Inner Div Content */
+.inner-content{
 	position: relative;
     top: 50%;
     left: 50%;
@@ -50,6 +54,7 @@ dt:hover+dd{
 	background-color: #0099FF;
 }
 
+/* Image */
 img{
 	float:left;
 }
