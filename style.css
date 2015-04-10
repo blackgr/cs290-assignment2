@@ -26,6 +26,26 @@ tr:nth-child(4){
 tr:nth-child(5){
 	background-color:#66A3E0;
 }
+
+/* Change definition background to purple when hovering over term */
 dt:hover+dd{
 	background-color:purple;
+}
+
+.outer{
+	height:60px;
+	width: 75%;
+	left: 0px;
+	background-color: pink;
+	margin:20px;
+}
+
+.inner{
+	position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	width: 75%;
+	background-color: #0099FF;
 }
