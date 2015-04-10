@@ -49,3 +49,7 @@ dt:hover+dd{
 	width: 75%;
 	background-color: #0099FF;
 }
+
+img{
+	float:left;
+}
